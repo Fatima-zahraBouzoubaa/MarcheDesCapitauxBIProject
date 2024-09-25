@@ -1,0 +1,4081 @@
+{
+  "compatibilityLevel": 1567,
+  "model": {
+    "annotations": [
+      {
+        "name": "PBI_QueryOrder",
+        "value": "[\"dimension_zone_geo\",\"fact_economic_indicators\",\"timedim\"]"
+      },
+      {
+        "name": "__PBI_TimeIntelligenceEnabled",
+        "value": "1"
+      },
+      {
+        "name": "PBIDesktopVersion",
+        "value": "2.132.1053.0 (24.08)"
+      },
+      {
+        "name": "PBI_ProTooling",
+        "value": "[\"DevMode\"]"
+      }
+    ],
+    "culture": "en-US",
+    "cultures": [
+      {
+        "name": "en-US",
+        "linguisticMetadata": {
+          "content": {
+            "Entities": {
+              "dimension_zone_geo": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "dimension_zone_geo"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "dimension zone geo": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "dimension_zone_geo": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "geo": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "zone geo": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  }
+                ]
+              },
+              "dimension_zone_geo.id_zone": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "dimension_zone_geo",
+                    "ConceptualProperty": "id_zone"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "id zone": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "id_zone": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "zone": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "identification zone": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "identity zone": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "identifier zone": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "credential zone": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  },
+                  {
+                    "id region": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "id precinct": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "region": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "precinct": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "id district": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "id sector": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  }
+                ],
+                "Visibility": {
+                  "Value": "Hidden"
+                }
+              },
+              "dimension_zone_geo.libelle_zone": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "dimension_zone_geo",
+                    "ConceptualProperty": "libelle_zone"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "libelle zone": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "libelle_zone": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "libelle region": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "libelle precinct": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "libelle district": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "libelle sector": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "libelle neighborhood": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "libelle area": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "Nom de la zone": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "dimension_zone_geo.nom_pay": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "dimension_zone_geo",
+                    "ConceptualProperty": "nom_pays"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "nom pay": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "nom_pays": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "nom salary": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "nom reimbursement": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "nom compensation": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "nom remuneration": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "nom emolument": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "nom stipend": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "nom wage": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "nom recompense": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "nom fee": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "nom hire": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  }
+                ]
+              },
+              "fact_economic_indicator": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "fact_economic_indicators"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "fact economic indicator": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "fact_economic_indicators": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "fact economic pointer": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.508
+                    }
+                  },
+                  {
+                    "fact economic needle": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.492
+                    }
+                  },
+                  {
+                    "fact economic gage": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.492
+                    }
+                  },
+                  {
+                    "fact economic gauge": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.492
+                    }
+                  },
+                  {
+                    "fact economic dial": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.492
+                    }
+                  },
+                  {
+                    "fact economic meter": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.492
+                    }
+                  },
+                  {
+                    "fact economic display": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.492
+                    }
+                  },
+                  {
+                    "fact economic marker": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.482
+                    }
+                  },
+                  {
+                    "fact economic statistic": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.482
+                    }
+                  },
+                  {
+                    "fact economic sign": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.468
+                    }
+                  }
+                ]
+              },
+              "fact_economic_indicator.column": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "fact_economic_indicators",
+                    "ConceptualProperty": "Column"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "column": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "pilaster": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "pier": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "pillar": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "post": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "support": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "stake": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "pole": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "buttress": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "underpinning": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "contribution": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.466
+                    }
+                  }
+                ]
+              },
+              "fact_economic_indicator.date_id": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "fact_economic_indicators",
+                    "ConceptualProperty": "date_id"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "date id": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "date_id": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "date identification": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "date identity": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "date identifier": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "date credential": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  },
+                  {
+                    "moment id": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "period id": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  },
+                  {
+                    "Annee": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "fact_economic_indicator.fact_id": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "fact_economic_indicators",
+                    "ConceptualProperty": "fact_id"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "fact id": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "fact_id": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "fact": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "fact identification": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "fact identity": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "fact identifier": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "fact credential": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  },
+                  {
+                    "statistic": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "element": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "information": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "statement": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "detail": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "circumstance": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  }
+                ]
+              },
+              "fact_economic_indicator.id_zone": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "fact_economic_indicators",
+                    "ConceptualProperty": "id_zone"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "id zone": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "id_zone": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "zone": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "identification zone": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "identity zone": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "identifier zone": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "credential zone": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  },
+                  {
+                    "id region": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "id precinct": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "region": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "precinct": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "id district": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "id sector": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  }
+                ]
+              },
+              "fact_economic_indicator.inflation": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "fact_economic_indicators",
+                    "ConceptualProperty": "inflation"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "inflation": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "rise": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "increase": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  }
+                ]
+              },
+              "fact_economic_indicator.pay": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "fact_economic_indicators",
+                    "ConceptualProperty": "pays"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "pay": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "salary": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "reimbursement": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "compensation": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "remuneration": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "emolument": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "stipend": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "wage": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "recompense": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "fee": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "hire": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  }
+                ]
+              },
+              "fact_economic_indicator.pib": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "fact_economic_indicators",
+                    "ConceptualProperty": "pib"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "pib": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "fact_economic_indicator.solde_courant": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "fact_economic_indicators",
+                    "ConceptualProperty": "solde_courant"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "solde courant": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "solde_courant": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  }
+                ]
+              },
+              "timedim": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "timedim"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "timedim": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "timedim.d": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "timedim",
+                    "ConceptualProperty": "d"
+                  }
+                },
+                "SemanticType": "Time",
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "d": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "date": {
+                      "State": "Generated",
+                      "Weight": 0.7
+                    }
+                  }
+                ]
+              },
+              "timedim.d.variation.date_hierarchy": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "timedim",
+                    "Hierarchy": "Date Hierarchy",
+                    "VariationSet": "Variation",
+                    "VariationSource": "d"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "d date hierarchy": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "date hierarchy": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "hierarchy": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "d moment hierarchy": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  },
+                  {
+                    "moment hierarchy": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "d period hierarchy": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  },
+                  {
+                    "period hierarchy": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  },
+                  {
+                    "d date ladder": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.492
+                    }
+                  },
+                  {
+                    "d date grading": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.492
+                    }
+                  },
+                  {
+                    "d date order": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.492
+                    }
+                  },
+                  {
+                    "d date pyramid": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.492
+                    }
+                  },
+                  {
+                    "date ladder": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "date grading": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  }
+                ]
+              },
+              "timedim.d.variation.date_hierarchy.day": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "timedim",
+                    "Hierarchy": "Date Hierarchy",
+                    "HierarchyLevel": "Day",
+                    "VariationSet": "Variation",
+                    "VariationSource": "d"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "d day": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "day": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "timedim.d.variation.date_hierarchy.month": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "timedim",
+                    "Hierarchy": "Date Hierarchy",
+                    "HierarchyLevel": "Month",
+                    "VariationSet": "Variation",
+                    "VariationSource": "d"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "d month": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "month": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "d mth": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "mth": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  }
+                ]
+              },
+              "timedim.d.variation.date_hierarchy.quarter": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "timedim",
+                    "Hierarchy": "Date Hierarchy",
+                    "HierarchyLevel": "Quarter",
+                    "VariationSet": "Variation",
+                    "VariationSource": "d"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "d quarter": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "quarter": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "d qtr": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.833
+                    }
+                  },
+                  {
+                    "qtr": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.818
+                    }
+                  }
+                ]
+              },
+              "timedim.d.variation.date_hierarchy.year": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "timedim",
+                    "Hierarchy": "Date Hierarchy",
+                    "HierarchyLevel": "Year",
+                    "VariationSet": "Variation",
+                    "VariationSource": "d"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "d year": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "year": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "d yr": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "yr": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  }
+                ]
+              },
+              "timedim.date_id": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "timedim",
+                    "ConceptualProperty": "date_id"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "date id": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "date_id": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "date identification": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "date identity": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "date identifier": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "date credential": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  },
+                  {
+                    "moment id": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "period id": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  }
+                ]
+              },
+              "timedim.day": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "timedim",
+                    "ConceptualProperty": "day"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "day": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "timedim.day_of_week": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "timedim",
+                    "ConceptualProperty": "day_of_week"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "day of week": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "day_of_week": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  }
+                ]
+              },
+              "timedim.fiscal_year": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "timedim",
+                    "ConceptualProperty": "fiscal_year"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "fiscal year": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "fiscal_year": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "fiscal yr": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "fisc year": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "accounting year": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  },
+                  {
+                    "budget year": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  },
+                  {
+                    "fiscal date": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  },
+                  {
+                    "fiscal day": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  },
+                  {
+                    "tax year": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  }
+                ],
+                "Visibility": {
+                  "Value": "Hidden"
+                }
+              },
+              "timedim.is_weekend": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "timedim",
+                    "ConceptualProperty": "is_weekend"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "is weekend": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "is_weekend": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "weekend": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  }
+                ]
+              },
+              "timedim.month": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "timedim",
+                    "ConceptualProperty": "month"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "month": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "mth": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  }
+                ]
+              },
+              "timedim.month_name": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "timedim",
+                    "ConceptualProperty": "month_name"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "month name": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "month_name": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "month nickname": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  },
+                  {
+                    "month title": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  },
+                  {
+                    "month label": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  },
+                  {
+                    "month tag": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  },
+                  {
+                    "mth name": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  }
+                ]
+              },
+              "timedim.quarter": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "timedim",
+                    "ConceptualProperty": "quarter"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "quarter": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "qtr": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.818
+                    }
+                  }
+                ]
+              },
+              "timedim.week_of_year": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "timedim",
+                    "ConceptualProperty": "week_of_year"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "week of year": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "week_of_year": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "week of yr": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  }
+                ]
+              },
+              "timedim.year": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "timedim",
+                    "ConceptualProperty": "year"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "year": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "yr": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  }
+                ]
+              },
+              "timedim.year_month": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "timedim",
+                    "ConceptualProperty": "year_month"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "year month": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "year_month": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "year mth": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "yr month": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  }
+                ]
+              }
+            },
+            "Language": "en-US",
+            "Relationships": {
+              "dimension_zone_geo_has_fact_economic_indicator": {
+                "Binding": {
+                  "ConceptualEntity": "dimension_zone_geo"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "fact_economic_indicator"
+                      },
+                      "Subject": {
+                        "Role": "dimension_zone_geo"
+                      }
+                    },
+                    "ID": "dimension_zone_geos_have_fact_economic_indicators",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "dimension_zone_geo": {
+                    "Target": {
+                      "Entity": "dimension_zone_geo"
+                    }
+                  },
+                  "fact_economic_indicator": {
+                    "Target": {
+                      "Entity": "fact_economic_indicator"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "dimension_zone_geo_has_libelle_zone": {
+                "Binding": {
+                  "ConceptualEntity": "dimension_zone_geo"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "dimension_zone_geo.libelle_zone"
+                      },
+                      "Subject": {
+                        "Role": "dimension_zone_geo"
+                      }
+                    },
+                    "ID": "dimension_zone_geos_have_libelle_zones",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "dimension_zone_geo": {
+                    "Target": {
+                      "Entity": "dimension_zone_geo"
+                    }
+                  },
+                  "dimension_zone_geo.libelle_zone": {
+                    "Target": {
+                      "Entity": "dimension_zone_geo.libelle_zone"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "dimension_zone_geo_has_nom_pay": {
+                "Binding": {
+                  "ConceptualEntity": "dimension_zone_geo"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "dimension_zone_geo.nom_pay"
+                      },
+                      "Subject": {
+                        "Role": "dimension_zone_geo"
+                      }
+                    },
+                    "ID": "dimension_zone_geos_have_nom_pays",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "dimension_zone_geo": {
+                    "Target": {
+                      "Entity": "dimension_zone_geo"
+                    }
+                  },
+                  "dimension_zone_geo.nom_pay": {
+                    "Target": {
+                      "Entity": "dimension_zone_geo.nom_pay"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "fact_economic_indicator_has_column": {
+                "Binding": {
+                  "ConceptualEntity": "fact_economic_indicators"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "fact_economic_indicator.column"
+                      },
+                      "Subject": {
+                        "Role": "fact_economic_indicator"
+                      }
+                    },
+                    "ID": "fact_economic_indicators_have_columns",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "fact_economic_indicator": {
+                    "Target": {
+                      "Entity": "fact_economic_indicator"
+                    }
+                  },
+                  "fact_economic_indicator.column": {
+                    "Target": {
+                      "Entity": "fact_economic_indicator.column"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "fact_economic_indicator_has_date_id": {
+                "Binding": {
+                  "ConceptualEntity": "fact_economic_indicators"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "fact_economic_indicator.date_id"
+                      },
+                      "Subject": {
+                        "Role": "fact_economic_indicator"
+                      }
+                    },
+                    "ID": "fact_economic_indicators_have_date_ids",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "fact_economic_indicator": {
+                    "Target": {
+                      "Entity": "fact_economic_indicator"
+                    }
+                  },
+                  "fact_economic_indicator.date_id": {
+                    "Target": {
+                      "Entity": "fact_economic_indicator.date_id"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "fact_economic_indicator_has_fact_id": {
+                "Binding": {
+                  "ConceptualEntity": "fact_economic_indicators"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "fact_economic_indicator.fact_id"
+                      },
+                      "Subject": {
+                        "Role": "fact_economic_indicator"
+                      }
+                    },
+                    "ID": "fact_economic_indicators_have_fact_ids",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "fact_economic_indicator": {
+                    "Target": {
+                      "Entity": "fact_economic_indicator"
+                    }
+                  },
+                  "fact_economic_indicator.fact_id": {
+                    "Target": {
+                      "Entity": "fact_economic_indicator.fact_id"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "fact_economic_indicator_has_id_zone": {
+                "Binding": {
+                  "ConceptualEntity": "fact_economic_indicators"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "fact_economic_indicator.id_zone"
+                      },
+                      "Subject": {
+                        "Role": "fact_economic_indicator"
+                      }
+                    },
+                    "ID": "fact_economic_indicators_have_id_zones",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "fact_economic_indicator": {
+                    "Target": {
+                      "Entity": "fact_economic_indicator"
+                    }
+                  },
+                  "fact_economic_indicator.id_zone": {
+                    "Target": {
+                      "Entity": "fact_economic_indicator.id_zone"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "fact_economic_indicator_has_inflation": {
+                "Binding": {
+                  "ConceptualEntity": "fact_economic_indicators"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "fact_economic_indicator.inflation"
+                      },
+                      "Subject": {
+                        "Role": "fact_economic_indicator"
+                      }
+                    },
+                    "ID": "fact_economic_indicators_have_inflations",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "fact_economic_indicator": {
+                    "Target": {
+                      "Entity": "fact_economic_indicator"
+                    }
+                  },
+                  "fact_economic_indicator.inflation": {
+                    "Target": {
+                      "Entity": "fact_economic_indicator.inflation"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "fact_economic_indicator_has_pay": {
+                "Binding": {
+                  "ConceptualEntity": "fact_economic_indicators"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "fact_economic_indicator.pay"
+                      },
+                      "Subject": {
+                        "Role": "fact_economic_indicator"
+                      }
+                    },
+                    "ID": "fact_economic_indicators_have_pays",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "fact_economic_indicator": {
+                    "Target": {
+                      "Entity": "fact_economic_indicator"
+                    }
+                  },
+                  "fact_economic_indicator.pay": {
+                    "Target": {
+                      "Entity": "fact_economic_indicator.pay"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "fact_economic_indicator_has_pib": {
+                "Binding": {
+                  "ConceptualEntity": "fact_economic_indicators"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "fact_economic_indicator.pib"
+                      },
+                      "Subject": {
+                        "Role": "fact_economic_indicator"
+                      }
+                    },
+                    "ID": "fact_economic_indicators_have_pibs",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "fact_economic_indicator": {
+                    "Target": {
+                      "Entity": "fact_economic_indicator"
+                    }
+                  },
+                  "fact_economic_indicator.pib": {
+                    "Target": {
+                      "Entity": "fact_economic_indicator.pib"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "fact_economic_indicator_has_solde_courant": {
+                "Binding": {
+                  "ConceptualEntity": "fact_economic_indicators"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "fact_economic_indicator.solde_courant"
+                      },
+                      "Subject": {
+                        "Role": "fact_economic_indicator"
+                      }
+                    },
+                    "ID": "fact_economic_indicators_have_solde_courants",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "fact_economic_indicator": {
+                    "Target": {
+                      "Entity": "fact_economic_indicator"
+                    }
+                  },
+                  "fact_economic_indicator.solde_courant": {
+                    "Target": {
+                      "Entity": "fact_economic_indicator.solde_courant"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "timedim_d_has_variation_date_hierarchy": {
+                "Binding": {
+                  "ConceptualEntity": "timedim"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "timedim.d.variation.date_hierarchy"
+                      },
+                      "Subject": {
+                        "Role": "timedim.d"
+                      }
+                    },
+                    "ID": "Ds_have_d_date_hierarchies",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "timedim.d": {
+                    "Target": {
+                      "Entity": "timedim.d"
+                    }
+                  },
+                  "timedim.d.variation.date_hierarchy": {
+                    "Target": {
+                      "Entity": "timedim.d.variation.date_hierarchy"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "timedim_d_variation_date_hierarchy_has_day": {
+                "Binding": {
+                  "ConceptualEntity": "timedim"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "timedim.d.variation.date_hierarchy.day"
+                      },
+                      "Subject": {
+                        "Role": "timedim.d.variation.date_hierarchy"
+                      }
+                    },
+                    "ID": "d_date_hierarchies_have_d_days",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "timedim.d.variation.date_hierarchy": {
+                    "Target": {
+                      "Entity": "timedim.d.variation.date_hierarchy"
+                    }
+                  },
+                  "timedim.d.variation.date_hierarchy.day": {
+                    "Target": {
+                      "Entity": "timedim.d.variation.date_hierarchy.day"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "timedim_d_variation_date_hierarchy_has_month": {
+                "Binding": {
+                  "ConceptualEntity": "timedim"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "timedim.d.variation.date_hierarchy.month"
+                      },
+                      "Subject": {
+                        "Role": "timedim.d.variation.date_hierarchy"
+                      }
+                    },
+                    "ID": "d_date_hierarchies_have_d_months",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "timedim.d.variation.date_hierarchy": {
+                    "Target": {
+                      "Entity": "timedim.d.variation.date_hierarchy"
+                    }
+                  },
+                  "timedim.d.variation.date_hierarchy.month": {
+                    "Target": {
+                      "Entity": "timedim.d.variation.date_hierarchy.month"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "timedim_d_variation_date_hierarchy_has_quarter": {
+                "Binding": {
+                  "ConceptualEntity": "timedim"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "timedim.d.variation.date_hierarchy.quarter"
+                      },
+                      "Subject": {
+                        "Role": "timedim.d.variation.date_hierarchy"
+                      }
+                    },
+                    "ID": "d_date_hierarchies_have_d_quarters",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "timedim.d.variation.date_hierarchy": {
+                    "Target": {
+                      "Entity": "timedim.d.variation.date_hierarchy"
+                    }
+                  },
+                  "timedim.d.variation.date_hierarchy.quarter": {
+                    "Target": {
+                      "Entity": "timedim.d.variation.date_hierarchy.quarter"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "timedim_d_variation_date_hierarchy_has_year": {
+                "Binding": {
+                  "ConceptualEntity": "timedim"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "timedim.d.variation.date_hierarchy.year"
+                      },
+                      "Subject": {
+                        "Role": "timedim.d.variation.date_hierarchy"
+                      }
+                    },
+                    "ID": "d_date_hierarchies_have_d_years",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "timedim.d.variation.date_hierarchy": {
+                    "Target": {
+                      "Entity": "timedim.d.variation.date_hierarchy"
+                    }
+                  },
+                  "timedim.d.variation.date_hierarchy.year": {
+                    "Target": {
+                      "Entity": "timedim.d.variation.date_hierarchy.year"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "timedim_d_variation_date_hierarchy_month_has_timedim_d_variation_date_hierarchy_day": {
+                "Binding": {
+                  "ConceptualEntity": "timedim"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "timedim.d.variation.date_hierarchy.day"
+                      },
+                      "Subject": {
+                        "Role": "timedim.d.variation.date_hierarchy.month"
+                      }
+                    },
+                    "ID": "d_months_have_d_days",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "timedim.d.variation.date_hierarchy.month"
+                      },
+                      "Subject": {
+                        "Role": "timedim.d.variation.date_hierarchy.day"
+                      }
+                    },
+                    "ID": "d_days_have_d_months",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "ID": "d_days_are_in_d_months",
+                    "Preposition": {
+                      "Object": {
+                        "Role": "timedim.d.variation.date_hierarchy.month"
+                      },
+                      "Prepositions": [
+                        {
+                          "in": {
+                            "State": "Generated"
+                          }
+                        }
+                      ],
+                      "Subject": {
+                        "Role": "timedim.d.variation.date_hierarchy.day"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "timedim.d.variation.date_hierarchy.day": {
+                    "Target": {
+                      "Entity": "timedim.d.variation.date_hierarchy.day"
+                    }
+                  },
+                  "timedim.d.variation.date_hierarchy.month": {
+                    "Target": {
+                      "Entity": "timedim.d.variation.date_hierarchy.month"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "timedim_d_variation_date_hierarchy_quarter_has_timedim_d_variation_date_hierarchy_month": {
+                "Binding": {
+                  "ConceptualEntity": "timedim"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "timedim.d.variation.date_hierarchy.month"
+                      },
+                      "Subject": {
+                        "Role": "timedim.d.variation.date_hierarchy.quarter"
+                      }
+                    },
+                    "ID": "d_quarters_have_d_months",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "timedim.d.variation.date_hierarchy.quarter"
+                      },
+                      "Subject": {
+                        "Role": "timedim.d.variation.date_hierarchy.month"
+                      }
+                    },
+                    "ID": "d_months_have_d_quarters",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "ID": "d_months_are_in_d_quarters",
+                    "Preposition": {
+                      "Object": {
+                        "Role": "timedim.d.variation.date_hierarchy.quarter"
+                      },
+                      "Prepositions": [
+                        {
+                          "in": {
+                            "State": "Generated"
+                          }
+                        }
+                      ],
+                      "Subject": {
+                        "Role": "timedim.d.variation.date_hierarchy.month"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "timedim.d.variation.date_hierarchy.month": {
+                    "Target": {
+                      "Entity": "timedim.d.variation.date_hierarchy.month"
+                    }
+                  },
+                  "timedim.d.variation.date_hierarchy.quarter": {
+                    "Target": {
+                      "Entity": "timedim.d.variation.date_hierarchy.quarter"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "timedim_d_variation_date_hierarchy_year_has_timedim_d_variation_date_hierarchy_quarter": {
+                "Binding": {
+                  "ConceptualEntity": "timedim"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "timedim.d.variation.date_hierarchy.quarter"
+                      },
+                      "Subject": {
+                        "Role": "timedim.d.variation.date_hierarchy.year"
+                      }
+                    },
+                    "ID": "d_years_have_d_quarters",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "timedim.d.variation.date_hierarchy.year"
+                      },
+                      "Subject": {
+                        "Role": "timedim.d.variation.date_hierarchy.quarter"
+                      }
+                    },
+                    "ID": "d_quarters_have_d_years",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "ID": "d_quarters_are_in_d_years",
+                    "Preposition": {
+                      "Object": {
+                        "Role": "timedim.d.variation.date_hierarchy.year"
+                      },
+                      "Prepositions": [
+                        {
+                          "in": {
+                            "State": "Generated"
+                          }
+                        }
+                      ],
+                      "Subject": {
+                        "Role": "timedim.d.variation.date_hierarchy.quarter"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "timedim.d.variation.date_hierarchy.quarter": {
+                    "Target": {
+                      "Entity": "timedim.d.variation.date_hierarchy.quarter"
+                    }
+                  },
+                  "timedim.d.variation.date_hierarchy.year": {
+                    "Target": {
+                      "Entity": "timedim.d.variation.date_hierarchy.year"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "timedim_has_d": {
+                "Binding": {
+                  "ConceptualEntity": "timedim"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "timedim.d"
+                      },
+                      "Subject": {
+                        "Role": "timedim"
+                      }
+                    },
+                    "ID": "timedims_have_Ds",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "timedim": {
+                    "Target": {
+                      "Entity": "timedim"
+                    }
+                  },
+                  "timedim.d": {
+                    "Target": {
+                      "Entity": "timedim.d"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "timedim_has_date_id": {
+                "Binding": {
+                  "ConceptualEntity": "timedim"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "timedim.date_id"
+                      },
+                      "Subject": {
+                        "Role": "timedim"
+                      }
+                    },
+                    "ID": "timedims_have_date_ids",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "timedim": {
+                    "Target": {
+                      "Entity": "timedim"
+                    }
+                  },
+                  "timedim.date_id": {
+                    "Target": {
+                      "Entity": "timedim.date_id"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "timedim_has_day": {
+                "Binding": {
+                  "ConceptualEntity": "timedim"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "timedim.day"
+                      },
+                      "Subject": {
+                        "Role": "timedim"
+                      }
+                    },
+                    "ID": "timedims_have_days",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "timedim": {
+                    "Target": {
+                      "Entity": "timedim"
+                    }
+                  },
+                  "timedim.day": {
+                    "Target": {
+                      "Entity": "timedim.day"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "timedim_has_day_of_week": {
+                "Binding": {
+                  "ConceptualEntity": "timedim"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "timedim.day_of_week"
+                      },
+                      "Subject": {
+                        "Role": "timedim"
+                      }
+                    },
+                    "ID": "timedims_have_day_of_week",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "timedim": {
+                    "Target": {
+                      "Entity": "timedim"
+                    }
+                  },
+                  "timedim.day_of_week": {
+                    "Target": {
+                      "Entity": "timedim.day_of_week"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "timedim_has_fact_economic_indicator": {
+                "Binding": {
+                  "ConceptualEntity": "timedim"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "fact_economic_indicator"
+                      },
+                      "Subject": {
+                        "Role": "timedim"
+                      }
+                    },
+                    "ID": "timedims_have_fact_economic_indicators",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "fact_economic_indicator": {
+                    "Target": {
+                      "Entity": "fact_economic_indicator"
+                    }
+                  },
+                  "timedim": {
+                    "Target": {
+                      "Entity": "timedim"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "timedim_has_is_weekend": {
+                "Binding": {
+                  "ConceptualEntity": "timedim"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "timedim.is_weekend"
+                      },
+                      "Subject": {
+                        "Role": "timedim"
+                      }
+                    },
+                    "ID": "timedims_have_is_weekends",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "timedim": {
+                    "Target": {
+                      "Entity": "timedim"
+                    }
+                  },
+                  "timedim.is_weekend": {
+                    "Target": {
+                      "Entity": "timedim.is_weekend"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "timedim_has_month": {
+                "Binding": {
+                  "ConceptualEntity": "timedim"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "timedim.month"
+                      },
+                      "Subject": {
+                        "Role": "timedim"
+                      }
+                    },
+                    "ID": "timedims_have_months",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "timedim": {
+                    "Target": {
+                      "Entity": "timedim"
+                    }
+                  },
+                  "timedim.month": {
+                    "Target": {
+                      "Entity": "timedim.month"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "timedim_has_month_name": {
+                "Binding": {
+                  "ConceptualEntity": "timedim"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "timedim.month_name"
+                      },
+                      "Subject": {
+                        "Role": "timedim"
+                      }
+                    },
+                    "ID": "timedims_have_month_names",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "timedim": {
+                    "Target": {
+                      "Entity": "timedim"
+                    }
+                  },
+                  "timedim.month_name": {
+                    "Target": {
+                      "Entity": "timedim.month_name"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "timedim_has_quarter": {
+                "Binding": {
+                  "ConceptualEntity": "timedim"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "timedim.quarter"
+                      },
+                      "Subject": {
+                        "Role": "timedim"
+                      }
+                    },
+                    "ID": "timedims_have_quarters",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "timedim": {
+                    "Target": {
+                      "Entity": "timedim"
+                    }
+                  },
+                  "timedim.quarter": {
+                    "Target": {
+                      "Entity": "timedim.quarter"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "timedim_has_week_of_year": {
+                "Binding": {
+                  "ConceptualEntity": "timedim"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "timedim.week_of_year"
+                      },
+                      "Subject": {
+                        "Role": "timedim"
+                      }
+                    },
+                    "ID": "timedims_have_week_of_year",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "timedim": {
+                    "Target": {
+                      "Entity": "timedim"
+                    }
+                  },
+                  "timedim.week_of_year": {
+                    "Target": {
+                      "Entity": "timedim.week_of_year"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "timedim_has_year": {
+                "Binding": {
+                  "ConceptualEntity": "timedim"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "timedim.year"
+                      },
+                      "Subject": {
+                        "Role": "timedim"
+                      }
+                    },
+                    "ID": "timedims_have_years",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "timedim": {
+                    "Target": {
+                      "Entity": "timedim"
+                    }
+                  },
+                  "timedim.year": {
+                    "Target": {
+                      "Entity": "timedim.year"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "timedim_has_year_month": {
+                "Binding": {
+                  "ConceptualEntity": "timedim"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "timedim.year_month"
+                      },
+                      "Subject": {
+                        "Role": "timedim"
+                      }
+                    },
+                    "ID": "timedims_have_year_months",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "timedim": {
+                    "Target": {
+                      "Entity": "timedim"
+                    }
+                  },
+                  "timedim.year_month": {
+                    "Target": {
+                      "Entity": "timedim.year_month"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "timedim_is_weekend": {
+                "Binding": {
+                  "ConceptualEntity": "timedim"
+                },
+                "Conditions": [
+                  {
+                    "Operator": "Equals",
+                    "Target": {
+                      "Role": "timedim.is_weekend"
+                    },
+                    "Value": {
+                      "Boolean": [
+                        true
+                      ]
+                    }
+                  }
+                ],
+                "Phrasings": [
+                  {
+                    "Adjective": {
+                      "Adjectives": [
+                        {
+                          "weekend": {
+                            "State": "Generated"
+                          }
+                        }
+                      ],
+                      "Subject": {
+                        "Role": "timedim"
+                      }
+                    },
+                    "ID": "some_timedims_are_weekend_timedims",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "timedim": {
+                    "Target": {
+                      "Entity": "timedim"
+                    }
+                  },
+                  "timedim.is_weekend": {
+                    "Target": {
+                      "Entity": "timedim.is_weekend"
+                    }
+                  }
+                },
+                "State": "Generated"
+              }
+            },
+            "Version": "3.5.0"
+          },
+          "contentType": "json"
+        }
+      }
+    ],
+    "dataAccessOptions": {
+      "legacyRedirects": true,
+      "returnErrorValuesAsNull": true
+    },
+    "defaultPowerBIDataSourceVersion": "powerBI_V3",
+    "relationships": [
+      {
+        "name": "e76fb96a-381f-41a0-8a75-740679629ac5",
+        "fromColumn": "d",
+        "fromTable": "timedim",
+        "joinOnDateBehavior": "datePartOnly",
+        "toColumn": "Date",
+        "toTable": "LocalDateTable_3b36a0be-b1da-4b83-9fb4-61661ebb5c18"
+      },
+      {
+        "name": "be3b3b6c-8b01-eb01-7a0a-d643001a6149",
+        "crossFilteringBehavior": "bothDirections",
+        "fromColumn": "fiscal_year",
+        "fromTable": "timedim",
+        "toCardinality": "many",
+        "toColumn": "date_id",
+        "toTable": "fact_economic_indicators"
+      },
+      {
+        "name": "7456c87f-04d6-d0d5-a3e9-ffd598593c8d",
+        "crossFilteringBehavior": "bothDirections",
+        "fromColumn": "id_zone",
+        "fromTable": "dimension_zone_geo",
+        "toCardinality": "many",
+        "toColumn": "id_zone",
+        "toTable": "fact_economic_indicators"
+      },
+      {
+        "name": "4404b595-c36b-840e-dfe4-133f0e3ea8f1",
+        "crossFilteringBehavior": "bothDirections",
+        "fromColumn": "nom_pays",
+        "fromTable": "dimension_zone_geo",
+        "isActive": false,
+        "toCardinality": "many",
+        "toColumn": "pays",
+        "toTable": "fact_economic_indicators"
+      }
+    ],
+    "sourceQueryCulture": "en-US",
+    "tables": [
+      {
+        "name": "dimension_zone_geo",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "changedProperties": [
+          {
+            "property": "IsHidden"
+          }
+        ],
+        "columns": [
+          {
+            "name": "id_zone",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "IsHidden"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "a3109c84-46e7-4fde-8d93-9ae7d3e33b0d",
+            "sourceColumn": "id_zone",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "libelle_zone",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "IsHidden"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "cd0709e9-8eb4-4ffc-8aca-7d99f7f93877",
+            "sourceColumn": "libelle_zone",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "nom_pays",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "IsHidden"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "9f543a11-042a-4b65-9439-860d1b16d077",
+            "sourceColumn": "nom_pays",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "4ec566ec-7ba6-45df-8a81-f2405a54d3a8",
+        "partitions": [
+          {
+            "name": "dimension_zone_geo",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = Odbc.DataSource(\"dsn=Hive_Odbc\", [HierarchicalNavigation=true]),",
+                "    dimensions_db_Schema = Source{[Name=\"dimensions_db\",Kind=\"Schema\"]}[Data],",
+                "    dimension_zone_geo_Table = dimensions_db_Schema{[Name=\"dimension_zone_geo\",Kind=\"Table\"]}[Data]",
+                "in",
+                "    dimension_zone_geo_Table"
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "DateTableTemplate_058b5fb1-dbdd-497d-9ff5-692836d70279",
+        "annotations": [
+          {
+            "name": "__PBI_TemplateDateTable",
+            "value": "true"
+          },
+          {
+            "name": "DefaultItem",
+            "value": "DateHierarchy"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Date",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              }
+            ],
+            "dataCategory": "PaddedDateTableDates",
+            "dataType": "dateTime",
+            "formatString": "General Date",
+            "isHidden": true,
+            "isNameInferred": true,
+            "lineageTag": "9198caf0-987e-4863-97b5-1c4807927a32",
+            "sourceColumn": "[Date]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Year",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Year"
+              }
+            ],
+            "dataCategory": "Years",
+            "dataType": "int64",
+            "expression": "YEAR([Date])",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "2b361cf3-d44b-4caa-98d4-d8343b5fc645",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "MonthNo",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "MonthNumber"
+              }
+            ],
+            "dataCategory": "MonthOfYear",
+            "dataType": "int64",
+            "expression": "MONTH([Date])",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "79f17a72-f732-423b-8d13-80e244ae9024",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Month",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Month"
+              }
+            ],
+            "dataCategory": "Months",
+            "dataType": "string",
+            "expression": "FORMAT([Date], \"MMMM\")",
+            "isHidden": true,
+            "lineageTag": "b4535a8c-88b7-450c-9373-409af791cc7d",
+            "sortByColumn": "MonthNo",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "QuarterNo",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "QuarterNumber"
+              }
+            ],
+            "dataCategory": "QuarterOfYear",
+            "dataType": "int64",
+            "expression": "INT(([MonthNo] + 2) / 3)",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "3159c385-84b8-4eff-9a19-42337128dc77",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Quarter",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Quarter"
+              }
+            ],
+            "dataCategory": "Quarters",
+            "dataType": "string",
+            "expression": "\"Qtr \" & [QuarterNo]",
+            "isHidden": true,
+            "lineageTag": "3368314c-14a2-4b69-b62b-b1ca77b9d6a4",
+            "sortByColumn": "QuarterNo",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Day",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Day"
+              }
+            ],
+            "dataCategory": "DayOfMonth",
+            "dataType": "int64",
+            "expression": "DAY([Date])",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "e74aa240-67c6-40bb-acc2-99632329347b",
+            "summarizeBy": "none",
+            "type": "calculated"
+          }
+        ],
+        "hierarchies": [
+          {
+            "name": "Date Hierarchy",
+            "annotations": [
+              {
+                "name": "TemplateId",
+                "value": "DateHierarchy"
+              }
+            ],
+            "levels": [
+              {
+                "name": "Year",
+                "column": "Year",
+                "lineageTag": "87fb979d-96dc-48cf-806a-cbae4c888df7",
+                "ordinal": 0
+              },
+              {
+                "name": "Quarter",
+                "column": "Quarter",
+                "lineageTag": "e75aadf7-70b2-48a4-9c92-7acd299041ef",
+                "ordinal": 1
+              },
+              {
+                "name": "Month",
+                "column": "Month",
+                "lineageTag": "4cf54cb6-4076-469f-8cfd-a71e6395a64b",
+                "ordinal": 2
+              },
+              {
+                "name": "Day",
+                "column": "Day",
+                "lineageTag": "8b1b952a-f3ef-41fc-b52d-3f0858f5be45",
+                "ordinal": 3
+              }
+            ],
+            "lineageTag": "49aa5f10-d664-4524-a5b5-8d741662cac8"
+          }
+        ],
+        "isHidden": true,
+        "isPrivate": true,
+        "lineageTag": "6e4274ab-7772-4099-8474-fe892651df4b",
+        "partitions": [
+          {
+            "name": "DateTableTemplate_058b5fb1-dbdd-497d-9ff5-692836d70279",
+            "mode": "import",
+            "source": {
+              "expression": "Calendar(Date(2015,1,1), Date(2015,1,1))",
+              "type": "calculated"
+            }
+          }
+        ]
+      },
+      {
+        "name": "fact_economic_indicators",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "fact_id",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "3be89353-df98-4198-9861-ab803cbb17f1",
+            "sourceColumn": "fact_id",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "id_zone",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "d3950113-b62a-466a-b7cc-10f7b2a55297",
+            "sourceColumn": "id_zone",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "date_id",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "b80afbb1-09b4-4cb9-80f6-e7c8957eb992",
+            "sourceColumn": "date_id",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "pays",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "d7f90c5c-4962-4f4c-a190-0c3cb4da8798",
+            "sourceColumn": "pays",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "pib",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "6e3c19ee-28a0-4b45-8d97-ebfaaec565c3",
+            "sourceColumn": "pib",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "inflation",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "62d00620-78dd-41f3-a0d3-de9058bf0136",
+            "sourceColumn": "inflation",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "solde_courant",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "2c447679-8ea6-4db6-8140-94618356f619",
+            "sourceColumn": "solde_courant",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Column",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "expression": "2024",
+            "formatString": "0",
+            "isDataTypeInferred": true,
+            "lineageTag": "13c52cc6-916e-4926-a210-a33e271b0c76",
+            "summarizeBy": "sum",
+            "type": "calculated"
+          }
+        ],
+        "lineageTag": "2236bfa9-74c4-4e6e-a7e7-50969c49c701",
+        "partitions": [
+          {
+            "name": "fact_economic_indicators",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = Odbc.DataSource(\"dsn=Hive_Odbc\", [HierarchicalNavigation=true]),",
+                "    dimensions_db_Schema = Source{[Name=\"dimensions_db\",Kind=\"Schema\"]}[Data],",
+                "    fact_economic_indicators_Table = dimensions_db_Schema{[Name=\"fact_economic_indicators\",Kind=\"Table\"]}[Data]",
+                "in",
+                "    fact_economic_indicators_Table"
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "timedim",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "date_id",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "71b6110f-4929-4f36-8dd9-6caac867b5e7",
+            "sourceColumn": "date_id",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "d",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "UnderlyingDateTimeDataType",
+                "value": "Date"
+              }
+            ],
+            "dataType": "dateTime",
+            "formatString": "Long Date",
+            "lineageTag": "b1e766d0-6160-47fc-ac6e-b068923c59e5",
+            "sourceColumn": "d",
+            "summarizeBy": "none",
+            "variations": [
+              {
+                "name": "Variation",
+                "defaultHierarchy": {
+                  "hierarchy": "Date Hierarchy",
+                  "table": "LocalDateTable_3b36a0be-b1da-4b83-9fb4-61661ebb5c18"
+                },
+                "isDefault": true,
+                "relationship": "e76fb96a-381f-41a0-8a75-740679629ac5"
+              }
+            ]
+          },
+          {
+            "name": "year",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "1cbc7bcd-e1f5-44cd-9ba0-5c3d93530ceb",
+            "sourceColumn": "year",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "month",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "90da894b-7749-4fdc-bc20-b241bb193e94",
+            "sourceColumn": "month",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "day",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "2f6ce8b7-4294-4da8-b43a-14f155bc16eb",
+            "sourceColumn": "day",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "day_of_week",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "99f61b99-194e-4701-b315-0335ae0530c1",
+            "sourceColumn": "day_of_week",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "month_name",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "3cdcc89f-60fd-41a6-8012-7854a91e7691",
+            "sourceColumn": "month_name",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "quarter",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "46fbc94f-d988-47f6-b363-eb2b6eb3ef68",
+            "sourceColumn": "quarter",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "year_month",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "78f722f9-bb3e-497a-b584-9888a2918df2",
+            "sourceColumn": "year_month",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "week_of_year",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "e3e78e2b-0a6f-4de1-b181-e981baac4bcb",
+            "sourceColumn": "week_of_year",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "is_weekend",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "boolean",
+            "formatString": "\"TRUE\";\"TRUE\";\"FALSE\"",
+            "lineageTag": "ed8947b4-1101-49a0-bf50-00c3b0c46bf5",
+            "sourceColumn": "is_weekend",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "fiscal_year",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "dba17e2b-a92e-4422-b3cf-aaa7f01dda14",
+            "sourceColumn": "fiscal_year",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "915e5aef-fed2-4349-8401-cfe3b6c80531",
+        "partitions": [
+          {
+            "name": "timedim",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = Odbc.DataSource(\"dsn=Hive_Odbc\", [HierarchicalNavigation=true]),",
+                "    dimensions_db_Schema = Source{[Name=\"dimensions_db\",Kind=\"Schema\"]}[Data],",
+                "    timedim_Table = dimensions_db_Schema{[Name=\"timedim\",Kind=\"Table\"]}[Data]",
+                "in",
+                "    timedim_Table"
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "LocalDateTable_3b36a0be-b1da-4b83-9fb4-61661ebb5c18",
+        "annotations": [
+          {
+            "name": "__PBI_LocalDateTable",
+            "value": "true"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Date",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              }
+            ],
+            "dataCategory": "PaddedDateTableDates",
+            "dataType": "dateTime",
+            "formatString": "General Date",
+            "isHidden": true,
+            "isNameInferred": true,
+            "lineageTag": "9e001668-10a8-45c1-aeb5-9384519130ff",
+            "sourceColumn": "[Date]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Year",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Year"
+              }
+            ],
+            "dataCategory": "Years",
+            "dataType": "int64",
+            "expression": "YEAR([Date])",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "fdea5451-176d-41a3-8866-75b5cae17678",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "MonthNo",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "MonthNumber"
+              }
+            ],
+            "dataCategory": "MonthOfYear",
+            "dataType": "int64",
+            "expression": "MONTH([Date])",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "6de940fc-0efe-4d34-b7c9-62603b3779e6",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Month",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Month"
+              }
+            ],
+            "dataCategory": "Months",
+            "dataType": "string",
+            "expression": "FORMAT([Date], \"MMMM\")",
+            "isHidden": true,
+            "lineageTag": "96ab223b-6267-4fdb-a611-0678eeed9031",
+            "sortByColumn": "MonthNo",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "QuarterNo",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "QuarterNumber"
+              }
+            ],
+            "dataCategory": "QuarterOfYear",
+            "dataType": "int64",
+            "expression": "INT(([MonthNo] + 2) / 3)",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "191058b3-f0e4-4cad-b2cb-5c361e29159d",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Quarter",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Quarter"
+              }
+            ],
+            "dataCategory": "Quarters",
+            "dataType": "string",
+            "expression": "\"Qtr \" & [QuarterNo]",
+            "isHidden": true,
+            "lineageTag": "ba2709fd-f9da-4475-901f-2dc2193c3bc5",
+            "sortByColumn": "QuarterNo",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Day",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Day"
+              }
+            ],
+            "dataCategory": "DayOfMonth",
+            "dataType": "int64",
+            "expression": "DAY([Date])",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "ccfbeb97-94d9-4c5f-bbb5-a51987dae4c3",
+            "summarizeBy": "none",
+            "type": "calculated"
+          }
+        ],
+        "hierarchies": [
+          {
+            "name": "Date Hierarchy",
+            "annotations": [
+              {
+                "name": "TemplateId",
+                "value": "DateHierarchy"
+              }
+            ],
+            "levels": [
+              {
+                "name": "Year",
+                "column": "Year",
+                "lineageTag": "8a993f1f-f8dc-409c-93ae-a82f299cea15",
+                "ordinal": 0
+              },
+              {
+                "name": "Quarter",
+                "column": "Quarter",
+                "lineageTag": "949bcbee-816c-43f7-9fad-8268f0edbbfd",
+                "ordinal": 1
+              },
+              {
+                "name": "Month",
+                "column": "Month",
+                "lineageTag": "4851d26d-11ef-4fb2-a940-08ab3715e6ac",
+                "ordinal": 2
+              },
+              {
+                "name": "Day",
+                "column": "Day",
+                "lineageTag": "a329a2e0-7e50-47f0-822f-34d2aa20b1e0",
+                "ordinal": 3
+              }
+            ],
+            "lineageTag": "05309391-5493-4cda-a2ba-4453f7667bea"
+          }
+        ],
+        "isHidden": true,
+        "lineageTag": "205e9d73-48aa-4767-bbe9-a0ee9cda323a",
+        "partitions": [
+          {
+            "name": "LocalDateTable_3b36a0be-b1da-4b83-9fb4-61661ebb5c18",
+            "mode": "import",
+            "source": {
+              "expression": "Calendar(Date(Year(MIN('timedim'[d])), 1, 1), Date(Year(MAX('timedim'[d])), 12, 31))",
+              "type": "calculated"
+            }
+          }
+        ],
+        "showAsVariationsOnly": true
+      }
+    ]
+  }
+}
